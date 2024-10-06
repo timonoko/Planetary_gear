@@ -48,11 +48,11 @@ module pohja() difference() {
 module printtaus() {
   translate([66,0,0])pohja();
   translate([0,0,0])nuppi();
-  translate([34,0,0])planeetta();
-  translate([40,18,0])planeetta();
+  translate([32,9,0])planeetta();
+  translate([31,-10,0])planeetta();
   translate([66,0,16])rotate([0,0,0])rengas();
-  translate([21,39,10])kampi();
-  panta();
+  translate([21,41,10])kampi();
+  translate([21,41,0])panta();
 }
 
 module koossa(){
