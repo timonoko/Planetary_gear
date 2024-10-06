@@ -1,0 +1,1 @@
+<img src=potikka.jpg>
